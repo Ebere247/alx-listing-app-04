@@ -24,3 +24,7 @@ export interface Property {
   price: number;
   rating: number;
 }
+
+export interface PropertyDetailProps {
+  property: PropertyProps;
+}
